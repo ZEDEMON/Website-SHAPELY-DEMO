@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Unbounded', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+.logo{
+    text-decoration: none;
+    color: #6c7a89;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.navigation a{
+    color: #6c7a89;
+    text-decoration: none;
+    font-size: 10px;
+    padding-left: 10px;
+}
+.navigation a:hover{
+    color: #464d55;
+}
+section{
+    padding: 200px 400px
+}
+.main{
+    width: 100%;
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(imgs/lol.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2{
+    font-family: 'Unbounded', cursive;
+    color: white;
+    font-size: 1.4em;
+    font-weight: 400;
+    justify-content: space-between;
+}
+.main h2 span{
+    /* display: inline-block;
+    margin-top: 10px; */
+    color: white;
+    font-size: 1.4em;
+    font-weight: 400;
+    justify-content: space-between;
+    margin-top: 1px;
+    padding: 50px;
+}
+.main h5{
+    color: white;
+    font-size: 9px;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+/* .main_btn{
+    background: transparent;
+    height: 38px;
+    line-height: 40px;
+    border: 2px solid white;
+    display: inline-block;
+    float: none;
+    text-align: center;
+    width: 120px;
+    padding: 0!important;
+    font-size: 7px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    transition: 0.7s ease;
+}
+.main_btn:hover{
+    transform: scale(1.1);
+}
+.read_more{
+    color: white;
+    background-color: #8c14fc;
+    text-decoration: none;
+    height: 38px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 7px;
+    font-weight: 400;
+    display: inline-block;
+    float: none;
+    padding: 4px 20px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    transition: 0.7s ease;
+}
+.read_more:hover{
+    transform: scale(1.1);
+} */
+.cont{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+    padding: 20px;
+    margin-top: 30px;
+    border: 2px solid white;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 7px;
+    transition: 0.7s ease;
+}
+.btn:hover{
+    transform: scale(1.1);
+}
+.text{
+    margin-bottom: 15px;
+}
+.read_more{
+    background-color: #8c14fc;
+    border: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    letter-spacing: 1px;
+}
